@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+
+body{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+font-family: monospace;
+background-color: rgba(131, 110, 189, 0.822);
+}
+
+
+h1{
+    padding: 40px;
+    font-size: 50px;
+}
+
+#value{
+    padding:100px;
+    font-size: 80px;
+    
+}
+
+.btn{
+    margin: 30px 10px;
+    padding: 5px 30px;
+    border: .5px solid rgb(22, 40, 119);
+    border-radius: 5px ;
+    outline: none;
+    background-color: rgb(25, 23, 29);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(33, 82, 122);
+    
+}
